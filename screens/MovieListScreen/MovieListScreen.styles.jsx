@@ -8,10 +8,10 @@ export const styles = StyleSheet.create({
   },
   movieCell: {
     backgroundColor: "#ecf0f1",
-    padding: 20,
+    padding: 22,
     flexDirection: "row",
-    marginVertical: 8,
-    marginHorizontal: 16,
+    marginVertical: 20,
+    marginHorizontal: 0,
     borderRadius: 5,
     shadowColor: "#000",
     shadowOffset: {
@@ -22,8 +22,8 @@ export const styles = StyleSheet.create({
     shadowRadius: 3.84,
     elevation: 5,
   },
-  movieCellTitle: { fontFamily: "Avenir", fontSize: 22 },
-  movieCellSubtitle: { fontFamily: "Avenir", fontSize: 14 },
+  movieCellTitle: { fontFamily: "Avenir", fontSize: 25 },
+  movieCellSubtitle: { fontFamily: "Avenir", fontSize: 13 },
   movieCellLeft: { height: 80, width: 54 },
   movieCellImage: { height: 80, width: 54, resizeMode: "contain" },
   movieCellRight: {
